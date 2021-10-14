@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Formulário de pesquisa</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário de pesquisa</h1>
+        <p>Obrigado por nos ajudar a melhorar a plataforma!</p>
+    </header>
+
+    <main>
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="
+                    sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label> 
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="data"><strong>Data</strong></label>
+                <abbr title="Opcional"><input type="date" name="ano" id="ano"></abbr>
+            </div>
+
+            <div class="campo">
+                <label for="função atual"><strong>Qual opção descreve melhor sua função atual?</strong></label>
+                <select id="senioridade">
+                    <option selected disabled value="">Selecione a função atual</option>
+                    <option>Estudante</option>
+                    <option>Trabalho em tempo integral</option>
+                    <option>Aprendiz em tempo integral</option>
+                    <option>Prefiro não dizer</option>
+                    <option>Outra</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label><strong>Você recomendaria a prataforma a um amigo?</strong></label>
+                <label>
+                    <input type="radio" name="recomendação" value="com certeza" checked>Com certeza
+                
+                    <input type="radio" name="recomendação" value="pode ser">Pode ser
+                
+                    <input type="radio" name="recomendação" value="não tenho certeza">Não tenho certeza
+
+                    </label>
+            </div>
+
+            <div class="campo">
+                <label for="função atual"><strong>Qual é o seu recurso favorito da prataforma?</strong></label>
+                <select id="senioridade">
+                    <option selected disabled value="">selecione uma opção
+                    </option>
+                    <option>Desafios</option>
+                    <option>Projetos</option>
+                    <option>Comunidade</option>
+                    <option>Outra</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                <div id="check">
+                    <label><strong>O que você gostaria de ver melhorado? (Marque todas as opções aplicáveis)?</strong></label>
+                    <input type="checkbox" id="melhoria" name="melhoria" value="Visualização de dados">
+                    <label for="melhoria">Visualização de dados</label>
+                    <input type="checkbox" id="desafios" name="desafios" value="desafios">
+                    <label for="desafios">Desafios</label>
+                    <input type="checkbox" id="comunidade" name="comunidade" value="comunidade">
+                    <label for="comunidade">Comunidade</label>
+                    <input type="checkbox" id="projetos" name="projetos" value="projetos">
+                    <label for="projetos">Projetos</label>
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <br>
+                <label><strong>Algum comentário ou sugestão?</strong></label>
+                <textarea row="5" id="sugestão" name="sugestão" style="width:15em" ></textarea>
+            </div>
+
+            <button type="submit" class="botao">Enviar</button>
+
+        </form>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nóticias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+        <div id="hora">hora</div>
+        <h1>Destaques</h1>
+        <nav>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assunto">
+            <p> <a href="https://ge.globo.com/" target="_blank" >Esportes</a> <a href="https://www.cnnbrasil.com.br/politica/" target="_blank" >politica</a> <a href="https://www.tecmundo.com.br/tecnologia" target="_blank" >tecnologia</a></p>
+        </section>
+        <section id="noticias">
+            <h2>Pricipais noticias</h2>
+
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis laudantium, quis temporibus omnis similique perferendis quam labore, in tempora corporis officiis dolore consequatur, magnam amet voluptate voluptatibus iure? Magnam, odio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem consectetur amet, ducimus nulla at nihil, quae commodi architecto assumenda labore explicabo laborum illo deserunt iusto ea quibusdam necessitatibus iure corrupti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero temporibus facilis provident non eaque odit dolor maxime ipsum, repudiandae totam harum nisi quaerat tenetur architecto. Veniam quos quasi ducimus asperiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsum aut, doloremque iure nulla quis ex neque adipisci at sunt nihil veritatis maxime, assumenda iste deleniti id asperiores porro! Repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus aliquid saepe porro praesentium, hic amet placeat cupiditate veniam officiis harum, nemo accusamus provident corrupti molestiae facilis iusto dolorum et. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex at pariatur distinctio enim exercitationem laboriosam similique, voluptas doloribus animi unde saepe eum corrupti accusantium qui suscipit! Amet tempora molestiae iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora est nisi, doloribus repudiandae perferendis quo vero consequuntur commodi quae ratione, eaque tenetur quam dicta quibusdam ipsum corrupti corporis ipsam iste?
+                    </p>
+                </article>
+                <article>
+                
+                </article>
+
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        Brasil noticias
+    </footer>
+
+    <script>
+        var hora= window.document.getElementById('hora')
+        var txthora = new Date()
+        var hora1 = txthora.getUTCHours()
+        var hora2 =txthora.getUTCMinutes()
+        
+       
+        hora.innerHTML = `${hora1}:${hora2}`
+
+    </script>
+
+    
+</body>
+</html>

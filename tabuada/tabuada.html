@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+
+        <h1 class="titulo">Resolva a tabuada</h1>
+
+        <div class="dados">
+
+            <p>
+                <strong>Digite o número</strong> <br> 
+                <input type="number" id="numero">
+            </p>
+            
+            <p id="sinal"><strong>Selecione um sinal</strong></p>
+
+            <p>
+                <table class="sinais">
+                    <tr> 
+                        <td>
+                            <input type="button" value="*" id="*" class="botao" onclick="vezes()">
+                        </td>
+                        <td>
+                            <input type="button" value="+" id="+" class="botao" onclick="mais()">
+                        </td>
+                        <td>
+                             <input type="button" value="-" id="-" class="botao" onclick="menos()">
+                        </td>
+                        <td>
+                            <input type="button" value="/" id="/" class="botao" onclick="dividir()">
+                        </td>
+                        
+                    </tr>
+
+                </table>
+            </p>
+
+
+        </div>
+
+        <div>
+
+            <select name="resultado" id="lista" size="11" class="tabela">
+                <option > Seu resultado</option>
+
+            </select>
+
+        </div>
+
+
+
+
+
+
+
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

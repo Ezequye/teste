@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: aquamarine;
+    text-align: center;
+
+}
+
+.titulo{
+    margin-bottom: 2px;
+    margin-top: 5px;
+
+}
+
+.dados{
+    min-width: 200px;
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.281);
+
+}
+
+#sinal{
+    margin-top: 5px;
+}
+
+.sinais{
+    margin: 0px 0px 0px 175px;
+
+}
+
+.botao{
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    margin: 10px 0px 10px 5px;
+    border-radius: 50%;
+
+}
+
+#calcular{
+    margin-top: 2px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.tabela{
+    margin: auto;
+    margin-top: 5px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.281);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
